@@ -1,0 +1,15 @@
+//Abstracts
+@import "abstracts/variables";
+//Vendor
+// @import "vendor/boostrap4.6/bootstrap.scss";
+@import "bootstrap4.6";
+//Base
+@import "base/reset";
+//Layout
+@import "layout/header";
+@import "layout/footer";
+//Components
+@import "components/buttons.scss";
+//Pages
+@import "pages/home";
+//Themes
