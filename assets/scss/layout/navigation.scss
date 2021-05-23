@@ -1,0 +1,14 @@
+.navbar {
+  background-color: $eerie-black;
+}
+
+.navbar-logo {
+  width: 60px;
+}
+
+.nav-item.active {
+    a {
+      color: $fuzzy-wuzzy !important;
+    }
+  }
+
