@@ -9931,8 +9931,8 @@ h3 {
 }
 .container {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 4fr 2fr;
+  grid-template-columns: 2fr;
+  grid-template-rows: 2fr;
   margin: 0;
   padding: 0;
 }
@@ -9963,6 +9963,11 @@ h3 {
 }
 
 @media (min-width: 600px) {
+  .container {
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 2fr 2fr;
+  }
+
   .navbar {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -9989,6 +9994,10 @@ h3 {
     grid-column-end: 2;
   }
 }
+img {
+  width: 100vw;
+}
+
 .footer {
   background-color: #0C0910;
   width: 100%;
